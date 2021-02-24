@@ -9,5 +9,14 @@ MATLAB functionality for working with whole slide images of histological slide s
 The image tiles will be saved into a new folder located in the output folder for each WSI. If you set makeAnnotationCSV to true, an accompanying csv which specifies the relative area of each annotation for each tile will be saved.
 
 
+## 2. Calculating celluarities for multiple WSIs (ndpi)
+1. Run scripts/multi_cellularityWSI.m
+2. Select all the ndpi for which you want to calculate the cellularity in the file selection dialog box
+
+The cellularities of all WSIs will be saved as "HE_analysis.csv" in the same folder as the WSIs. Additionally, by default, cellularity heatmaps, cell centroid masks and tissue masks will be saved into an 'Analyses' folder.
+
 ## Dependencies
 MATLAB bindings for the openslide library by Daniel Forsberg: https://github.com/fordanic/openslide-matlab
+
+## Citing
+If you find any of these function useful, please cite: TBD
