@@ -1,7 +1,8 @@
 function image = extract_slidescan_image(WSI, magnification)
-%EXTRACT_SLIDESCAN_IMAGE returns a double image matrix
+%EXTRACT_SLIDESCAN_IMAGE returns a uint8 image matrix
+%   
 %   extract_slidescan_image(WSI, MAG) reads the ndpi at the file path WSI
-%   and returns a double image matrix in magnification MAG.
+%   and returns a uint8 image matrix in magnification MAG.
 %
 % Relies on Daniel Forsberg's openslide MATLAB implementation: 
 % https://github.com/openslide/openslide
