@@ -17,12 +17,12 @@
 % along with this program.  If not, see <http://www.gnu.org/licenses/>.    
 
 %% Set parameters
-magnification = 20;
+magnification = 10;
 tiles_size = [1024 1024];
 overlap = [64 64];
 splitHE = false;
 makeAnnotationCSV = true;
-minRelativeTissueArea = 0.9;
+minRelativeTissueArea = 0.5;
 
 %% Convert ndpis to tiles
 [FileNames,PathName,FilterIndex] = uigetfile('*.ndpi', 'Select HE WSIs!','MultiSelect', 'on');
