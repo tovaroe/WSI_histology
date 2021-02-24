@@ -25,9 +25,11 @@ if ~exist([PathName filesep 'Analyses'], 'dir')
 end
 
 % Sort out already analyzed files
-analyses = readtable([PathName filesep 'HE_analysis.csv']);
-FilesAnalyzed = analyses.id;
-FileNames = setdiff(FileNames, intersect(FileNames, FilesAnalyzed));
+if exist([PathName filesep 'HE_analysis.csv'], 'file')
+    analyses = readtable([PathName filesep 'HE_analysis.csv']);
+    FilesAnalyzed = analyses.id;
+    FileNames = setdiff(FileNames, intersect(FileNames, FilesAnalyzed));
+end
 
 for k = 1:length(FileNames)
     disp(['Roughly ' num2str(100*k/length(FileNames)) '%'])
