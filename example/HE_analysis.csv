@@ -1,0 +1,4 @@
+id,cellularity_tissue,cellularity_undefined,cellularity_black,cellularity_blue,cellularity_green,cellularity_magenta,cellularity_red,cellularity_teal,cellularity_white,cellularity_yellow,Atissue,Aundefined,Ablack,Ablue,Agreen,Amagenta,Ared,Ateal,Atissue_1,Awhite,Ayellow
+WSI_1.ndpi,4806.39477166201,5146.70162869914,NaN,NaN,NaN,8330.51963671861,NaN,1851.74416377693,NaN,NaN,7.372677793536,6.396523905024,0,0,0,0.097472911104,0,0.919673480448,7.372677793536,0,0
+WSI_2.ndpi,7555.48706353797,8134.8147851089,1495.25300191339,NaN,NaN,NaN,NaN,NaN,NaN,NaN,7.112314473984,6.488408328192,0.63868790016,0,0,0,0,0,7.112314473984,0,0
+WSI_3.ndpi,4489.83008063595,4489.83008063595,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,9.705044337408,9.705044337408,0,0,0,0,0,0,9.705044337408,0,0
