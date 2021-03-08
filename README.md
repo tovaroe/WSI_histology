@@ -9,7 +9,7 @@ MATLAB functionality for working with whole slide images of histological slide s
 The image tiles will be saved into a new folder located in the output folder for each WSI. If you set makeAnnotationCSV to true, an accompanying csv which specifies the relative area of each annotation for each tile will be saved.
 
 
-## 2. Calculating celluarities for multiple WSIs (ndpi)
+## 2. Calculating celluarities and tissue areas for multiple WSIs (ndpi)
 1. Run scripts/multi_cellularityWSI.m
 2. Select all the ndpi for which you want to calculate the cellularity in the file selection dialog box
 
