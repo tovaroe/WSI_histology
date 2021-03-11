@@ -17,7 +17,8 @@ The cellularities of all WSIs will be saved as "HE_analysis.csv" in the same fol
 
 ## Dependencies
 MATLAB bindings for the openslide library by Daniel Forsberg: https://github.com/fordanic/openslide-matlab
-for annotations: xml2struct: https://www.mathworks.com/matlabcentral/fileexchange/28518-xml2struct
+
+For working with annotations: xml2struct https://www.mathworks.com/matlabcentral/fileexchange/28518-xml2struct
 
 ## Citing
 If you find any of these function useful, please cite: TBD
