@@ -21,4 +21,8 @@ MATLAB bindings for the openslide library by Daniel Forsberg: https://github.com
 For working with annotations: xml2struct https://www.mathworks.com/matlabcentral/fileexchange/28518-xml2struct
 
 ## Citing
-If you find any of these function useful, please cite: TBD
+If you find any of these function useful, please cite: 
+Roetzer-Pejrimovsky, T., Moser, AC., Atli, B. et al. The Digital Brain Tumour Atlas, an open histopathology resource. Sci Data 9, 55 (2022). 
+https://doi.org/10.1038/s41597-022-01157-0
+
+
