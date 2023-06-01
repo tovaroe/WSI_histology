@@ -20,6 +20,9 @@ MATLAB bindings for the openslide library by Daniel Forsberg: https://github.com
 
 For working with annotations: xml2struct https://www.mathworks.com/matlabcentral/fileexchange/28518-xml2struct
 
+## Bugs
+Providing only one ndpi file to multi_ndpi_to_tiles.m or multi_cellularityWSI.m will currently lead to a crash - please provide at least two ndpi files.
+
 ## Citing
 If you find any of these function useful, please cite: 
 Roetzer-Pejrimovsky, T., Moser, AC., Atli, B. et al. The Digital Brain Tumour Atlas, an open histopathology resource. Sci Data 9, 55 (2022). 
